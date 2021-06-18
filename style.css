@@ -1,0 +1,98 @@
+/**
+ * Computer Graphics Course - Homework Exercise 3
+ * @author: Danit Noa Yechezkel (203964036)
+ * @author: Dekel Menashe (311224117)
+ * @author: Keren Halpert (313604621)
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, serif;
+}
+
+body {
+    background-color: #353535;
+    display: flex;
+    justify-content: center;
+}
+
+canvas {
+    margin: 1%;
+    background-color: #c4c4c4;
+    border-radius: 5px;
+}
+
+.form {
+    margin-top: 1%;
+    width: 20%;
+    display: flex;
+    flex-flow: column;
+}
+
+.form .inp-grp {
+    color: #c4c4c4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+input {
+    width: 50%;
+    max-width: 90px;
+    border: 1px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+input[type=number] {
+    width: 30%;
+    padding-left: 5%;
+}
+
+button {
+    margin-bottom: 3%;
+    border: none;
+    background-color: #5163cd;
+    color: #c4c4c4;
+    height: 30px;
+    border-radius: 5px;
+}
+
+p {
+    color: #c4c4c4;
+}
+
+button:hover {
+    background-color: #5d6ecf;
+    cursor: pointer;
+}
+
+#clear {
+    background-color: #d75555;
+}
+
+#clear:hover {
+    background-color: #d46363;
+}
+
+#undo {
+    background-color: #b67d19;
+}
+
+#undo:hover {
+    background-color: #bd8524;
+}
+
+.selected {
+    background-color: #343b62;
+}
+
+.selected:hover {
+    background-color: #42486b;
+}
+
+.rotate-cursor {
+    cursor: url("./images/rotate-cursor.png"), no-drop;
+}
